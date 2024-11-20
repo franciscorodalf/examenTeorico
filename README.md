@@ -1,10 +1,10 @@
-# examenTeorico
+# examenTeorico hecho por franciscorodalf
 
-#Ejercicio 1
-<img src= "">
+# Ejercicio 1
+<img src= "Ejercicio1.png">
 
 
-#Ejercicio 2
+# Ejercicio 2
 # Especificación de Casos de Uso
 
 ## Actores
