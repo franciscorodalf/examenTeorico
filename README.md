@@ -17,7 +17,7 @@
 | **Relaciones** | Comparte acciones con el administrador, como la selección de películas y la interacción con el registro de alquileres o reservas. |
 | **Referencias** | Casos de uso relacionados: "Proporciona Datos Personales", "Alquila Película", "Devuelve Película", "Reserva Película". |   
 | **Notas** | Debe estar registrado en el sistema para acceder a los servicios. |
-| **Autor**  | alvarogrlp |
+| **Autor**  | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -30,7 +30,7 @@
 | **Relaciones** | Interactúa directamente con los clientes y el proveedor para garantizar el funcionamiento del sistema. |
 | **Referencias** | Casos de uso relacionados: "Registra a los Clientes", "Registra Película", "Registra Alquiler", "Registra Reserva". |   
 | **Notas** | Tiene acceso a las funcionalidades administrativas del sistema. |
-| **Autor**  | Álvaro |
+| **Autor**  | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -43,7 +43,7 @@
 | **Relaciones** | Colabora con el administrador para asegurar la existencia de películas en el catálogo. |
 | **Referencias** | Casos de uso relacionados: "Abastece Película Según Existencia", "Abastece Película", "Actualiza Proveedor". |   
 | **Notas** | Su rol es clave para mantener el inventario actualizado. |
-| **Autor**  | Álvaro |
+| **Autor**  | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -61,7 +61,7 @@
 | **Post-condiciones** | Los datos del cliente se guardan en la base de datos. |
 | **Requerimientos** | El cliente debe proporcionar información válida (nombre, dirección, etc.). |
 | **Notas** | Este paso es necesario para que el cliente pueda realizar otras operaciones en el sistema. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -77,7 +77,7 @@
 | **Post-condiciones** | La película queda marcada como alquilada en el sistema. |
 | **Requerimientos** | La película debe estar disponible en el catálogo. |
 | **Notas** | El sistema envía un comprobante al cliente tras completar el alquiler. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -93,7 +93,7 @@
 | **Post-condiciones** | La película queda disponible para nuevos alquileres. |
 | **Requerimientos** | La película debe estar físicamente devuelta. |
 | **Notas** | Si hay retrasos, el sistema puede registrar una multa. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -109,7 +109,7 @@
 | **Post-condiciones** | La película queda marcada como reservada en el sistema. |
 | **Requerimientos** | El cliente debe estar registrado y la película no debe estar alquilada. |
 | **Notas** | La reserva tiene una duración limitada antes de expirar. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -125,7 +125,7 @@
 | **Post-condiciones** | La película queda disponible para alquiler o reserva. |
 | **Requerimientos** | El sistema debe permitir el ingreso de datos de películas. |
 | **Notas** | La información de la película debe ser precisa para evitar errores en el catálogo. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -141,7 +141,7 @@
 | **Post-condiciones** | El catálogo se actualiza con las películas abastecidas. |
 | **Requerimientos** | Las películas deben ser entregadas físicamente. |
 | **Notas** | Este caso de uso garantiza que el sistema tenga suficiente inventario para atender a los clientes. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -157,7 +157,7 @@
 | **Post-condiciones** | La película queda identificada para su alquiler o reserva. |
 | **Requerimientos** | El catálogo debe estar actualizado. |
 | **Notas** | Este caso de uso es común para las acciones de alquilar y reservar películas. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -173,7 +173,7 @@
 | **Post-condiciones** | El sistema almacena el registro del alquiler. |
 | **Requerimientos** | Sistema funcional y actualizado. |
 | **Notas** | Puede incluir detalles como la fecha de devolución esperada. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -189,7 +189,7 @@
 | **Post-condiciones** | La reserva queda activa en el sistema. |
 | **Requerimientos** | La disponibilidad de la película en el inventario. |
 | **Notas** | Las reservas tienen un tiempo límite antes de expirar. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -205,7 +205,7 @@
 | **Post-condiciones** | Los datos actualizados quedan reflejados en el sistema. |
 | **Requerimientos** | Acceso administrativo al sistema. |
 | **Notas** | Es importante mantener los datos actualizados para la gestión del inventario. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -221,7 +221,7 @@
 | **Post-condiciones** | El inventario se actualiza con las nuevas películas. |
 | **Requerimientos** | Comunicación activa entre el sistema y el proveedor. |
 | **Notas** | Este caso de uso depende de las alertas automáticas del sistema. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
 
 ---
@@ -237,5 +237,5 @@
 | **Post-condiciones** | El cliente queda registrado en el sistema. |
 | **Requerimientos** | Acceso al sistema administrativo. |
 | **Notas** | El sistema verifica si ya existe un cliente con los mismos datos. |
-| **Autor** | Álvaro |
+| **Autor** | franciscorodalf |
 | **Fecha** | 20 de noviembre de 2024 |
